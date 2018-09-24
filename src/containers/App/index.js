@@ -1,13 +1,14 @@
-import React, { Component, Fragment } from "react";
+import React from "react";
+import Header from "../Header";
+import Hero from "../Hero";
+import { Container } from "./style";
 
-class App extends Component {
-  render() {
-    return (
-      <Fragment>
-        <p>product landing page</p>
-      </Fragment>
-    );
-  }
-}
-
-export default App;
+export default () => {
+  return (
+    <Container>
+      <Header />
+      <Hero />
+      <p>product landing page</p>
+    </Container>
+  );
+};
