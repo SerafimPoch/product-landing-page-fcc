@@ -1,12 +1,13 @@
 import React from "react";
 import { NavbarContainer } from "./style";
+import { Link } from "react-router-dom";
 
 export default () => {
   return (
     <NavbarContainer>
-      <a href="#features">Features</a>
-      <a href="#how-it-works">How It Works</a>
-      <a href="#pricing">Pricing</a>
+      <Link to="features">Features</Link>
+      <Link to="how-it-works">How It Works</Link>
+      <Link to="pricing">Pricing</Link>
     </NavbarContainer>
   );
 };
