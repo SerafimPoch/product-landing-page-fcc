@@ -1,3 +1,3 @@
 import "./reset.css";
-import "./fonts.css";
 import "./main.css";
+import "./fonts.css";

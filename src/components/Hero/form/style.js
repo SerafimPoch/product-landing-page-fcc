@@ -4,6 +4,7 @@ export const Form = styled.form`
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+  margin-top: 15px;
 `;
 
 export const GetStartedButton = styled.button`
