@@ -5,7 +5,7 @@ import FooterNavbar from "../../components/Footer/footerNavbar";
 
 export default () => {
   return (
-    <FooterContainer>
+    <FooterContainer id="pricing">
       <FooterNavbar />
       <Adress />
     </FooterContainer>

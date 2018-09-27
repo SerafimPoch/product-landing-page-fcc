@@ -6,7 +6,7 @@ import Quality from "./quality";
 
 export default () => {
   return (
-    <FeaturesContainer>
+    <FeaturesContainer id="features">
       <Materials />
       <Shipping />
       <Quality />
