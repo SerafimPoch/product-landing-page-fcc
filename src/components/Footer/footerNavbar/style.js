@@ -7,4 +7,11 @@ export const FooterNavbar = styled.nav`
   margin-right: 30px;
   padding-top: 15px;
   margin-bottom: 15px;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    width: 80%;
+    margin-right: 10px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
 `;

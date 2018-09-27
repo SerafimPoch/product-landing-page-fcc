@@ -8,6 +8,11 @@ export const Square = styled.div`
   border: 1px solid black;
   width: 30%;
   height: 100%;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 `;
 
 export const Header = styled.div`

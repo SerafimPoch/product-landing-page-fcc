@@ -9,4 +9,8 @@ export const HeaderContainer = styled.div`
   padding-top: 30px;
   padding-bottom: 30px;
   width: 100%;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    flex-flow: column wrap;
+  }
 `;

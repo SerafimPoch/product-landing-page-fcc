@@ -5,4 +5,9 @@ export const VideoBlock = styled.iframe`
   height: 360px;
   margin-bottom: 50px;
   margin-top: 50px;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    width: 100%;
+    height: 260px;
+  }
 `;

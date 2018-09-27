@@ -9,4 +9,8 @@ export const TromboneImage = styled.img`
   height: 100%;
   max-width: 300px;
   margin-left: 20px;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    margin-left: 0px;
+  }
 `;

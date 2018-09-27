@@ -6,11 +6,19 @@ export const SectionContainer = styled.div`
   align-items: center;
   width: 100%;
   height: 120px;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    margin-bottom: 50px;
+  }
 `;
 
 export const FeaturesImg = styled.img`
   width: 58px;
   height: 58px;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const FeatureTextContainer = styled.div`
@@ -18,4 +26,9 @@ export const FeatureTextContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 80%;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    width: 100%;
+    text-align: center;
+  }
 `;
