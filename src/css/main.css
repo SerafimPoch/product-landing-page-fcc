@@ -24,3 +24,9 @@ input {
   border-color: initial;
   border-image: initial;
 }
+
+a {
+  outline: none;
+  color: #000;
+  text-decoration: none;
+}
