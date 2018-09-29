@@ -14,4 +14,8 @@ export const FooterNavbar = styled.nav`
     padding-top: 0px;
     margin-bottom: 0px;
   }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 30%;
+  }
 `;

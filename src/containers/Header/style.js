@@ -13,4 +13,9 @@ export const HeaderContainer = styled.div`
   @media (min-width: 320px) and (max-width: 768px) {
     flex-flow: column wrap;
   }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    flex-flow: row wrap;
+    align-items: center;
+  }
 `;

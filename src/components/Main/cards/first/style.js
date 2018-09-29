@@ -13,6 +13,10 @@ export const Square = styled.div`
     width: 100%;
     margin-bottom: 10px;
   }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 50%;
+  }
 `;
 
 export const Header = styled.div`

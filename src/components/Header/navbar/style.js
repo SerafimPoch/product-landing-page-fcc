@@ -12,4 +12,10 @@ export const NavbarContainer = styled.nav`
     align-items: center;
     margin-top: 10px;
   }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    flex-flow: row wrap;
+    margin-top: 0px;
+    width: 45%;
+  }
 `;
